@@ -1,0 +1,66 @@
+{
+  "sensorId": "onboard",
+  "camera": "SWIR",
+  "imagesize": {
+    "image_height": 1349,
+    "image_width": 2495
+  },
+  "objects": [
+    {
+      "objectclass": "car",
+      "x_min": "721",
+      "y_min": "803",
+      "x_max": "792",
+      "y_max": "864",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "29.3",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.086424, 8.781722)"
+    },
+    {
+      "objectclass": "bicycle",
+      "x_min": "1191",
+      "y_min": "766",
+      "x_max": "1200",
+      "y_max": "777",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "340.1",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.088159, 8.783921)"
+    },
+    {
+      "objectclass": "tree",
+      "x_min": "1428",
+      "y_min": "730",
+      "x_max": "1434",
+      "y_max": "751",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "457.7",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.088741, 8.787038)"
+    },
+    {
+      "objectclass": "motorcycle",
+      "x_min": "1327",
+      "y_min": "753",
+      "x_max": "1353",
+      "y_max": "772",
+      "height": "155.58844",
+      "width": "427.14124",
+      "confidence": "0.45",
+      "distance": "635.2",
+      "entering_ROI": true,
+      "moving": false,
+      "actual_coordinates": "(53.090187, 8.788419)"
+    }
+  ]
+}

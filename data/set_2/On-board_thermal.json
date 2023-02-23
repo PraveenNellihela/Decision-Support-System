@@ -1,0 +1,80 @@
+{
+  "sensorId": "onboard",
+  "camera": "Thermal",
+  "imagesize": {
+    "image_height": 1349,
+    "image_width": 2495
+  },
+  "objects": [
+    {
+      "objectclass": "car",
+      "x_min": "760",
+      "y_min": "860",
+      "x_max": "863",
+      "y_max": "952",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "15.6",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.086302, 8.781697)"
+    },
+    {
+      "objectclass": "person",
+      "x_min": "1361",
+      "y_min": "766",
+      "x_max": "1378",
+      "y_max": "803",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "57.5",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.086509, 8.782312)"
+    },
+    {
+      "objectclass": "truck",
+      "x_min": "720",
+      "y_min": "736",
+      "x_max": "750",
+      "y_max": "774",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "231.8",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.088243, 8.781471)"
+    },
+    {
+      "objectclass": "dog",
+      "x_min": "1325",
+      "y_min": "736",
+      "x_max": "1347",
+      "y_max": "758",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "182.8",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.087321, 8.783615)"
+    },
+    {
+      "objectclass": "bicycle",
+      "x_min": "1180",
+      "y_min": "765",
+      "x_max": "1196",
+      "y_max": "777",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "347.5",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.088205, 8.783899)"
+    }
+  ]
+}

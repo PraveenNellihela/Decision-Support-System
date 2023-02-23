@@ -1,0 +1,108 @@
+{
+  "sensorId": "onboard",
+  "camera": "Monochrome",
+  "imagesize": {
+    "image_height": 1349,
+    "image_width": 2495
+  },
+  "objects": [
+    {
+      "objectclass": "car",
+      "x_min": "410",
+      "y_min": "876",
+      "x_max": "500",
+      "y_max": "955",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "16.6",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.08631, 8.781643)"
+    },
+    {
+      "objectclass": "bus",
+      "x_min": "1226",
+      "y_min": "773",
+      "x_max": "1246",
+      "y_max": "796",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "129.2",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.08711, 8.782792)"
+    },
+    {
+      "objectclass": "truck",
+      "x_min": "777",
+      "y_min": "740",
+      "x_max": "807",
+      "y_max": "777",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "235.8",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.088281, 8.781789)"
+    },
+    {
+      "objectclass": "car",
+      "x_min": "1014",
+      "y_min": "782",
+      "x_max": "1058",
+      "y_max": "824",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "60.4",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.086597, 8.782013)"
+    },
+    {
+      "objectclass": "bicycle",
+      "x_min": "1194",
+      "y_min": "768",
+      "x_max": "1210",
+      "y_max": "777",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "333.5",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.088166, 8.783969)"
+    },
+    {
+      "objectclass": "dog",
+      "x_min": "1300",
+      "y_min": "748",
+      "x_max": "1324",
+      "y_max": "768",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "178",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.087325, 8.783506)"
+    },
+    {
+      "objectclass": "tree",
+      "x_min": "1416",
+      "y_min": "733",
+      "x_max": "1426",
+      "y_max": "753",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "467.8",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.088764, 8.787176)"
+    }
+  ]
+}

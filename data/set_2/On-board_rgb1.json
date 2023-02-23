@@ -1,0 +1,94 @@
+{
+  "sensorId": "onboard",
+  "camera": "RGB1",
+  "imagesize": {
+    "image_height": 1349,
+    "image_width": 2495
+  },
+  "objects": [
+    {
+      "objectclass": "car",
+      "x_min": "582",
+      "y_min": "825",
+      "x_max": "674",
+      "y_max": "902",
+      "height": "175.78937",
+      "width": "226.33582",
+      "confidence": "0.594",
+      "distance": "22.5",
+      "entering_ROI": true,
+      "moving": true,
+      "actual_coordinates": "(53.086364, 8.781687)"
+    },
+    {
+      "objectclass": "person",
+      "x_min": "1285",
+      "y_min": "770",
+      "x_max": "1300",
+      "y_max": "803",
+      "height": "155.58844",
+      "width": "427.14124",
+      "confidence": "0.45",
+      "distance": "92.2",
+      "entering_ROI": true,
+      "moving": false,
+      "actual_coordinates": "(53.086773, 8.782607)"
+    },
+    {
+      "objectclass": "bus",
+      "x_min": "1254",
+      "y_min": "767",
+      "x_max": "1274",
+      "y_max": "788",
+      "height": "155.58844",
+      "width": "427.14124",
+      "confidence": "0.45",
+      "distance": "141.5",
+      "entering_ROI": true,
+      "moving": false,
+      "actual_coordinates": "(53.087144, 8.783022)"
+    },
+    {
+      "objectclass": "truck",
+      "x_min": "806",
+      "y_min": "733",
+      "x_max": "834",
+      "y_max": "770",
+      "height": "155.58844",
+      "width": "427.14124",
+      "confidence": "0.45",
+      "distance": "225.9",
+      "entering_ROI": true,
+      "moving": false,
+      "actual_coordinates": "(53.088175, 8.782123)"
+    },
+    {
+      "objectclass": "bicycle",
+      "x_min": "2138",
+      "y_min": "1008",
+      "x_max": "2362",
+      "y_max": "1140",
+      "height": "155.58844",
+      "width": "427.14124",
+      "confidence": "0.45",
+      "distance": "11.1",
+      "entering_ROI": true,
+      "moving": false,
+      "actual_coordinates": "(53.086163, 8.781840)"
+    },
+    {
+      "objectclass": "car",
+      "x_min": "2360",
+      "y_min": "875",
+      "x_max": "2461",
+      "y_max": "955",
+      "height": "155.58844",
+      "width": "427.14124",
+      "confidence": "0.45",
+      "distance": "14.7",
+      "entering_ROI": true,
+      "moving": false,
+      "actual_coordinates": "(53.086153, 8.781893)"
+    }
+  ]
+}

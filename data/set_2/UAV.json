@@ -1,0 +1,62 @@
+{
+  "sensorId": "uav",
+  "camera": "UAV",
+  "GPS_drone": {
+    "latitude": "53.087385",
+    "longitude": "8.784808"
+  },
+  "imagesize": {
+    "image_height": 1349,
+    "image_width": 2495
+  },
+  "objects": [
+    {
+      "objectclass": "tree",
+      "x_min": "1944.4734",
+      "y_min": "228.97227",
+      "x_max": "1968.3579",
+      "y_max": "283.2375",
+      "height": "54.265213",
+      "width": "23.884521",
+      "confidence": "0.533",
+      "GPS_object": {
+        "latitude": "53.088617",
+        "longitude": "8.787224"
+      },
+      "entering_ROI": true,
+      "moving": false
+    },
+    {
+      "objectclass": "bicycle",
+      "x_min": "1780.8383",
+      "y_min": "21.79178",
+      "x_max": "1790.0482",
+      "y_max": "46.347744",
+      "height": "24.555964",
+      "width": "9.209961",
+      "confidence": "0.509",
+      "GPS_object": {
+        "latitude": "53.088634",
+        "longitude": "8.784599"
+      },
+      "entering_ROI": true,
+      "moving": true
+    },
+    {
+      "objectclass": "motorcycle",
+      "x_min": "1780.8383",
+      "y_min": "21.79178",
+      "x_max": "1790.0482",
+      "y_max": "46.347744",
+      "height": "24.555964",
+      "width": "9.209961",
+      "confidence": "0.509",
+      "GPS_object": {
+        "latitude": "53.090003",
+        "longitude": "8.788627"
+      },
+      "entering_ROI": true,
+      "moving": true
+    }
+  ]
+}
